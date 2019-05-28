@@ -18,6 +18,10 @@ class ViewController: UIViewController {
     override func viewWillAppear(_ animated: Bool) {
         print("Hello World")
     }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        print("View Did Appear")
+    }
 
 
 }
